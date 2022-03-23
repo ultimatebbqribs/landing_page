@@ -1,39 +1,81 @@
+@font-face {
+    font-family: "roboto light";
+    src: url("font/Roboto/Roboto-Light.ttf");
+}
+
 body {
     min-width: 100vh;
     display: flex;
     flex-direction: column;    
+    font-family: roboto light;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    color: white;
+    color: #f9faf8;
     padding: 20px;
 }
 
 .logo {
     
 }
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: #e5e7eb;
+
+}
+
+img {
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
 .nav {
     display: flex;
     gap: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .section1{
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    color: white;
+    color: #f9faf8; 
+    display: flex;
 }
+
+.section1 h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
 
 .modal {
     height: auto;
-    width: 450px;
-    
+    width: 450px;    
+}
+
+.top_button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-family: roboto light;
+    font-weight: 800;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .topimg{
@@ -42,6 +84,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    padding-bottom: 50px;
 }
 
 .section2 {
